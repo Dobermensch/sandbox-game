@@ -3,8 +3,8 @@ Arcade game built using Phaser 3 game engine. Should work on all screens. Need p
 
 Asks user to input name before starting for better UX which deviates from requirement `g` but it can be accomodated upon request.
 ## Local installation order
-1. Backend
-2. Leaderboard frontend
+1. Backend: https://github.com/Dobermensch/sandbox-be
+2. Leaderboard frontend: https://github.com/Dobermensch/sandbox-fe
 3. This game project
 
 ## Setup
