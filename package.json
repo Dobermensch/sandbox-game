@@ -1,0 +1,22 @@
+{
+  "name": "sandbox",
+  "version": "1.0.0",
+  "description": "Phaser arcade game for Sandbox",
+  "main": "index.js",
+  "scripts": {
+    "dev": "concurrently \"npx webpack --env NODE_ENV=development --watch\" \"live-server --open=./public/dist --port=8085\"",
+    "build": "npx webpack --env NODE_ENV=production"
+  },
+  "keywords": [],
+  "author": "Ayudh Sharma",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^1.6.8",
+    "phaser": "^3.80.1"
+  },
+  "devDependencies": {
+    "concurrently": "^8.2.2",
+    "webpack": "^5.91.0",
+    "webpack-cli": "^5.1.4"
+  }
+}
