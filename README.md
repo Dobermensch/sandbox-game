@@ -9,5 +9,5 @@ Asks user to input name before starting for better UX which deviates from requir
 
 ## Setup
 1. cd to this project directory
-2. run `yarn dev`
+2. run `npm run dev` or `yarn dev`
 3. The project should open the browser to the game window automatically, if not, open http://localhost:8085/public/dist in your browser manually.
